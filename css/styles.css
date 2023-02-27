@@ -177,6 +177,7 @@ body {
 .header-address:is(:hover, :focus) {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
+  border: none;
 }
 /*------------------- HEADER----------------- */
 
@@ -644,6 +645,10 @@ body {
   margin-left: 80px;
 }
 
+.subscribe-message {
+  display: flex;
+}
+
 .text-subscribe {
   font-weight: 500;
   font-size: 16px;
@@ -653,9 +658,9 @@ body {
   margin-bottom: 16px;
 }
 
-.subscribe-field {
+/* .subscribe-field {
   display: flex;
-}
+ } */
 
 .email-form-input {
   width: 264px;
@@ -667,7 +672,6 @@ body {
   background: #2e2f42;
   resize: none;
   padding-left: 16px;
-  margin-right: 24px;
 }
 
 .email-form-input::placeholder {
@@ -696,6 +700,7 @@ body {
   border: none;
   width: 165px;
   margin-top: 0;
+  margin-left: 24px;
   transition: background-color var(--transition-duration-and-func),
     box-shadow var(--transition-duration-and-func);
 }
